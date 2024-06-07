@@ -18,7 +18,6 @@ body{
     background-color: #ECECEC;
     border: none;
     border-radius: 60px;
-    position: center;
     margin: 30px;
 }
 
@@ -49,7 +48,6 @@ input{
 .Hot_deals_slider{
     width: 100%;
     height: fit-content;
-    position: center;
 }
 
 .main-wrapper{
