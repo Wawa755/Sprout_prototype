@@ -217,7 +217,7 @@ right: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
     
 
-    transition: all 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: transform .4s ease-in-out;
 }
 
 .Cat_card_content{
@@ -308,6 +308,7 @@ position: relative;
     border-radius: 5px;
     margin: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+    transition: transform .4s ease-in-out;
   }
   
   .Image_Container {
@@ -368,6 +369,7 @@ position: relative;
     -ms-overflow-style: none;
     scrollbar-width: none;
     padding-left: 15px;
+    transition: transform .4s ease-in-out;
   }
   
   .Res_Cards::-webkit-scrollbar {
